@@ -54,8 +54,10 @@ const loginUser = asyncHandler(async (req, res, next) => {
     if (!user) {
       return next(new ErrorResponse(userNotFoundMessage, 404));
     }
+    const getUserPass = await User.findOne({ email }).select("password");
+    console.log("user::"+getUserPass.password);
     // Check if the provided password matches the hashed password in the database
-    const isMatch = await bcrypt.compare(password, user.password);
+    const isMatch = await bcrypt.compare(password, getUserPass.password);
     if (!isMatch) {
       return next(new ErrorResponse(incorrectPasswordMessage, 401));
     }

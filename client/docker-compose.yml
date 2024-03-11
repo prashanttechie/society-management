@@ -2,7 +2,7 @@ version: "3.4"
 services:
  vite_docker:
    image: node:alpine
-   container_name: vite_docker
+   container_name: society_app_front_end
    entrypoint: /bin/sh
    ports:
      - 8000:8000

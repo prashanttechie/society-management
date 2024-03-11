@@ -1,7 +1,7 @@
 version: "3"
 services:
   database:
-    container_name: project_name_database
+    container_name: society_app_database
     image: mongo
     restart: always
     volumes:
@@ -11,9 +11,11 @@ services:
     environment:
       - "MONGO_INITDB_ROOT_USERNAME=societyAdminUser"
       - "MONGO_INITDB_ROOT_PASSWORD=12345678"
+    networks:
+      - node-network
   backend:
     build: .
-    container_name: project_name_backend
+    container_name: society_app_backend
     command: sh -c "node server.js"
     restart: always
     ports:
@@ -24,6 +26,13 @@ services:
       - .env
     depends_on:
       - database
+    networks:
+      - node-network
       
 volumes:
   mongodb-data:
+
+networks:
+  node-network:
+    driver: bridge
+

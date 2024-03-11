@@ -11,8 +11,8 @@ const databaseName = process.env.DB_NAME
 // URL format for MongoDB Atlas
 // const connectionUrl = `mongodb://${username}:${password}@${host}:${port}/${databaseName}?authSource=admin&ssl=true&retryWrites=true`;
 // URL format for mongodb on local system or on docker container
+//const connectionUrl = `mongodb://${username}:${password}@${host}:${port}/${databaseName}`;
 const connectionUrl = `mongodb://${username}:${password}@${host}:${port}/${databaseName}`;
-
 // Function to connect to the MongoDB database
 const connectDB = async () => {
     try {
@@ -20,8 +20,13 @@ const connectDB = async () => {
         await mongoose.set("strictQuery", false);
 	
         // Connect to the MongoDB database using the provided URL
-        await mongoose.connect(connectionUrl);
-	console.log("CONNECTION SUCCESS")
+        console.log("connectionUrl::"+connectionUrl);
+        await mongoose.connect(connectionUrl, {
+            useNewUrlParser: true, 
+            useUnifiedTopology: true,
+            family: 4,
+          });
+	    console.log("CONNECTION SUCCESS")
         // Log a success message if the connection is successful
         console.log("Connection to the database successful");
     } catch (error) {

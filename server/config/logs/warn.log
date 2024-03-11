@@ -14,3 +14,73 @@
 2024-03-07T10:42:42.999Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
 2024-03-07T12:02:59.740Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
 2024-03-07T12:02:59.804Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:18:01.872Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:18:01.908Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:24:40.915Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:26:12.323Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:26:13.925Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:26:31.429Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:27:44.414Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:27:45.917Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:28:25.179Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:28:27.474Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:31:14.498Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:31:15.878Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:31:16.961Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:02.735Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:02.763Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:05.535Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:05.560Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:06.842Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:06.865Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:07.683Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:07.707Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:22.080Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:23.537Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:24.463Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:25.155Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:28.595Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:29.406Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:30.248Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:36.546Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:37.530Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:38.468Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:35:39.226Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:36:28.471Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:36:56.860Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:36:57.886Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:39:25.583Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:39:26.687Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:39:27.520Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:39:28.344Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:39:29.005Z error: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+2024-03-08T11:54:41.242Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-08T12:05:28.906Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T05:24:14.279Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T05:37:41.428Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T05:49:54.784Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T05:57:34.472Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T08:30:09.337Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T08:31:45.114Z error: Operation `users.insertOne()` buffering timed out after 10000ms
+2024-03-11T08:43:27.489Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T09:11:17.583Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-03-11T09:35:45.048Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("fcdee4d9-4d3c-4bfc-8dc8-46d339a38ea0") }, $db: "societydb" }
+2024-03-11T09:39:34.392Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("b5798606-899d-49d9-a205-7d64c74f4a59") }, $db: "societydb" }
+2024-03-11T09:39:35.764Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("b5798606-899d-49d9-a205-7d64c74f4a59") }, $db: "societydb" }
+2024-03-11T09:39:36.774Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("b5798606-899d-49d9-a205-7d64c74f4a59") }, $db: "societydb" }
+2024-03-11T09:42:43.866Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("61255503-7a0e-4082-977a-777e06f267d5") }, $db: "societydb" }
+2024-03-11T09:46:28.768Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("aaf509ca-dc14-4e30-9df0-034c3bdd719d") }, $db: "societydb" }
+2024-03-11T09:46:30.095Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("aaf509ca-dc14-4e30-9df0-034c3bdd719d") }, $db: "societydb" }
+2024-03-11T09:46:31.801Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("aaf509ca-dc14-4e30-9df0-034c3bdd719d") }, $db: "societydb" }
+2024-03-11T09:48:37.179Z error: not authorized on societydb to execute command { find: "users", filter: { email: "prshntmishra033@gmail.com" }, projection: { password: 0 }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID("757ca28c-5e11-469a-83e9-72304648ae0d") }, $db: "societydb" }
+2024-03-11T10:08:23.546Z error: Illegal arguments: string, undefined
+2024-03-11T10:11:31.910Z error: Illegal arguments: string, undefined
+2024-03-11T10:13:12.173Z error: Illegal arguments: string, object
+2024-03-11T10:13:13.360Z error: Illegal arguments: string, object
+2024-03-11T10:14:00.358Z error: Illegal arguments: string, object
+2024-03-11T10:15:07.459Z error: user is not defined
+2024-03-11T10:17:24.712Z error: Illegal arguments: string, undefined
+2024-03-11T10:18:22.409Z error: Illegal arguments: string, undefined
+2024-03-11T10:18:47.922Z error: Illegal arguments: string, undefined
+2024-03-11T10:20:27.783Z error: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-03-11T10:22:54.458Z error: Incorrect password.

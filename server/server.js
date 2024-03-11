@@ -1,5 +1,7 @@
 //Configuring Dotenv to use environment variables from .env file
 require("dotenv").config();
+const cors = require("cors");
+
 
 //Import Modules
 const path = require("path");
@@ -11,7 +13,7 @@ connectDB();
 //Creating express server
 const express = require("express");
 const app = express();
-
+app.use(cors());
 //Specifying the port
 const port = process.env.PORT || 5000;
 
